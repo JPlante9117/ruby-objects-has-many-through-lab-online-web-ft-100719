@@ -14,6 +14,7 @@ class Patient
   end
   
   def new_appointment(doctor, date)
+    #Appointment Class args are (date, patient, doctor)
     Appointment.new(date, self, doctor)
   end
   
