@@ -1,5 +1,10 @@
 class Doctor
   
-  attr_reader :name 
+  attr_accessor :name
+  
+  @@all_docs = []
+  def initialize(name)
+    @name = name
+  end
   
 end
